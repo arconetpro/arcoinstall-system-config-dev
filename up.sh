@@ -54,7 +54,7 @@ git commit -m "$input"
 
 if grep -q main .git/config; then
 	echo "Using main"
-		git push -u origin main
+	git push -u origin main
 fi
 
 echo "################################################################"
