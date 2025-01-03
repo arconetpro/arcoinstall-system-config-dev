@@ -30,7 +30,7 @@
 # reset - commit your changes or stash them before you merge
 # git reset --hard - personal alias - grh
 
-git checkout main
+workdir=$(pwd)
 
 # checking if I have the latest files from github
 echo "Checking for newer files online first"
