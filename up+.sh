@@ -39,6 +39,11 @@ git pull
 echo "getting latest empty pacman.conf from arconetpro"
 wget https://raw.githubusercontent.com/arcolinux/arcolinux-system-config/refs/heads/master/usr/local/share/arcolinux/pacman-no-arco.conf -O $workdir/usr/local/share/arcolinux/pacman-no-arco.conf
 
+echo "getting latest empty pacman.conf from arconetpro"
+wget https://raw.githubusercontent.com/arcolinux/arcolinux-system-config/refs/heads/master/usr/local/share/arcolinux/pacman.conf -O $workdir/usr/local/share/arcolinux/pacman.conf
+
+
+
 # Below command will backup everything inside the project folder
 git add --all .
 
