@@ -158,6 +158,10 @@ if [[ $response =~ ^[Yy]$ ]]; then
 		fi
 	}
 
+	sudo pacman -S --noconfirm --needed arc-gtk-theme
+	sudo pacman -S --noconfirm --needed bibata-cursor-theme-bin
+	sudo pacman -S --noconfirm --needed noto-fonts
+	sudo pacman -S --noconfirm --needed a-candy-beauty-icon-theme-git
 	apply_dconf
 	apply_gtk3
 	apply_xfce
