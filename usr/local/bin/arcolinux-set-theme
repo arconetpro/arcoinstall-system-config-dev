@@ -162,6 +162,9 @@ if [[ $response =~ ^[Yy]$ ]]; then
 	sudo pacman -S --noconfirm --needed bibata-cursor-theme-bin
 	sudo pacman -S --noconfirm --needed noto-fonts
 	sudo pacman -S --noconfirm --needed a-candy-beauty-icon-theme-git
+	sudo pacman -S --noconfirm --needed arconet-xfce
+	sudo pacman -S --noconfirm --needed arcolinux-gtk3-arcolinux-candy-beauty-git
+
 	apply_dconf
 	apply_gtk3
 	apply_xfce
