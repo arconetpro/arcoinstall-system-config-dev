@@ -49,9 +49,9 @@ if grep -q "#\[chaotic-aur\]" /etc/pacman.conf; then
 	echo "###############################################################################"
 	echo "Activate the chaotic repo"
 	echo "###############################################################################"
-	sudo sed -i "s/#\[chaotic-aur\]/\[chaotic-aur\]/g" /etc/pacman.conf;
-	sudo sed -i "s/#SigLevel = Required DatabaseOptional/SigLevel = Required DatabaseOptional/g" /etc/pacman.conf;
-	sudo sed -i "s/#Include = \/etc\/pacman.d\/chaotic-mirrorlist/Include = \/etc\/pacman.d\/chaotic-mirrorlist/g" /etc/pacman.conf;
+	sudo sed -i "s/#\[chaotic-aur\]/\[chaotic-aur\]/g" /etc/pacman.conf
+	sudo sed -i "s/#SigLevel = Required DatabaseOptional/SigLevel = Required DatabaseOptional/g" /etc/pacman.conf
+	sudo sed -i "s/#Include = \/etc\/pacman.d\/chaotic-mirrorlist/Include = \/etc\/pacman.d\/chaotic-mirrorlist/g" /etc/pacman.conf
 else
 	echo "###############################################################################"
 	echo "Deactivate the chaotic repo"
